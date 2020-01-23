@@ -42,103 +42,103 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dana\Desktop\kai cup\Tic tac toe"
+CMAKE_SOURCE_DIR = "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug"
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Tic_tac_toe.dir/depend.make
+include CMakeFiles/Tic_Tac_Toe.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Tic_tac_toe.dir/progress.make
+include CMakeFiles/Tic_Tac_Toe.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Tic_tac_toe.dir/flags.make
+include CMakeFiles/Tic_Tac_Toe.dir/flags.make
 
-CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: CMakeFiles/Tic_tac_toe.dir/flags.make
-CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tic_tac_toe.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_tac_toe.dir\main.cpp.obj -c "C:\Users\Dana\Desktop\kai cup\Tic tac toe\main.cpp"
+CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj: CMakeFiles/Tic_Tac_Toe.dir/flags.make
+CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_Tac_Toe.dir\main.cpp.obj -c "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\main.cpp"
 
-CMakeFiles/Tic_tac_toe.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_tac_toe.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Dana\Desktop\kai cup\Tic tac toe\main.cpp" > CMakeFiles\Tic_tac_toe.dir\main.cpp.i
+CMakeFiles/Tic_Tac_Toe.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_Tac_Toe.dir/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\main.cpp" > CMakeFiles\Tic_Tac_Toe.dir\main.cpp.i
 
-CMakeFiles/Tic_tac_toe.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_tac_toe.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Dana\Desktop\kai cup\Tic tac toe\main.cpp" -o CMakeFiles\Tic_tac_toe.dir\main.cpp.s
+CMakeFiles/Tic_Tac_Toe.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_Tac_Toe.dir/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\main.cpp" -o CMakeFiles\Tic_Tac_Toe.dir\main.cpp.s
 
-CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj: CMakeFiles/Tic_tac_toe.dir/flags.make
-CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj: ../Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_tac_toe.dir\Tree.cpp.obj -c "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Tree.cpp"
+CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj: CMakeFiles/Tic_Tac_Toe.dir/flags.make
+CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj: ../Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_Tac_Toe.dir\Tree.cpp.obj -c "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Tree.cpp"
 
-CMakeFiles/Tic_tac_toe.dir/Tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_tac_toe.dir/Tree.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Tree.cpp" > CMakeFiles\Tic_tac_toe.dir\Tree.cpp.i
+CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Tree.cpp" > CMakeFiles\Tic_Tac_Toe.dir\Tree.cpp.i
 
-CMakeFiles/Tic_tac_toe.dir/Tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_tac_toe.dir/Tree.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Tree.cpp" -o CMakeFiles\Tic_tac_toe.dir\Tree.cpp.s
+CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Tree.cpp" -o CMakeFiles\Tic_Tac_Toe.dir\Tree.cpp.s
 
-CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj: CMakeFiles/Tic_tac_toe.dir/flags.make
-CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_tac_toe.dir\Node.cpp.obj -c "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Node.cpp"
+CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj: CMakeFiles/Tic_Tac_Toe.dir/flags.make
+CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj: ../Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_Tac_Toe.dir\Node.cpp.obj -c "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Node.cpp"
 
-CMakeFiles/Tic_tac_toe.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_tac_toe.dir/Node.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Node.cpp" > CMakeFiles\Tic_tac_toe.dir\Node.cpp.i
+CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Node.cpp" > CMakeFiles\Tic_Tac_Toe.dir\Node.cpp.i
 
-CMakeFiles/Tic_tac_toe.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_tac_toe.dir/Node.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Dana\Desktop\kai cup\Tic tac toe\Node.cpp" -o CMakeFiles\Tic_tac_toe.dir\Node.cpp.s
+CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\Node.cpp" -o CMakeFiles\Tic_Tac_Toe.dir\Node.cpp.s
 
-CMakeFiles/Tic_tac_toe.dir/State.cpp.obj: CMakeFiles/Tic_tac_toe.dir/flags.make
-CMakeFiles/Tic_tac_toe.dir/State.cpp.obj: ../State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tic_tac_toe.dir/State.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_tac_toe.dir\State.cpp.obj -c "C:\Users\Dana\Desktop\kai cup\Tic tac toe\State.cpp"
+CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj: CMakeFiles/Tic_Tac_Toe.dir/flags.make
+CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj: ../State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tic_Tac_Toe.dir\State.cpp.obj -c "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\State.cpp"
 
-CMakeFiles/Tic_tac_toe.dir/State.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_tac_toe.dir/State.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Dana\Desktop\kai cup\Tic tac toe\State.cpp" > CMakeFiles\Tic_tac_toe.dir\State.cpp.i
+CMakeFiles/Tic_Tac_Toe.dir/State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tic_Tac_Toe.dir/State.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\State.cpp" > CMakeFiles\Tic_Tac_Toe.dir\State.cpp.i
 
-CMakeFiles/Tic_tac_toe.dir/State.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_tac_toe.dir/State.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Dana\Desktop\kai cup\Tic tac toe\State.cpp" -o CMakeFiles\Tic_tac_toe.dir\State.cpp.s
+CMakeFiles/Tic_Tac_Toe.dir/State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tic_Tac_Toe.dir/State.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\State.cpp" -o CMakeFiles\Tic_Tac_Toe.dir\State.cpp.s
 
-# Object files for target Tic_tac_toe
-Tic_tac_toe_OBJECTS = \
-"CMakeFiles/Tic_tac_toe.dir/main.cpp.obj" \
-"CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj" \
-"CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj" \
-"CMakeFiles/Tic_tac_toe.dir/State.cpp.obj"
+# Object files for target Tic_Tac_Toe
+Tic_Tac_Toe_OBJECTS = \
+"CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj" \
+"CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj" \
+"CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj" \
+"CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj"
 
-# External object files for target Tic_tac_toe
-Tic_tac_toe_EXTERNAL_OBJECTS =
+# External object files for target Tic_Tac_Toe
+Tic_Tac_Toe_EXTERNAL_OBJECTS =
 
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/main.cpp.obj
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/State.cpp.obj
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/build.make
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/linklibs.rsp
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/objects1.rsp
-Tic_tac_toe.exe: CMakeFiles/Tic_tac_toe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Tic_tac_toe.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Tic_tac_toe.dir\link.txt --verbose=$(VERBOSE)
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/build.make
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/linklibs.rsp
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/objects1.rsp
+Tic_Tac_Toe.exe: CMakeFiles/Tic_Tac_Toe.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Tic_Tac_Toe.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Tic_Tac_Toe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Tic_tac_toe.dir/build: Tic_tac_toe.exe
+CMakeFiles/Tic_Tac_Toe.dir/build: Tic_Tac_Toe.exe
 
-.PHONY : CMakeFiles/Tic_tac_toe.dir/build
+.PHONY : CMakeFiles/Tic_Tac_Toe.dir/build
 
-CMakeFiles/Tic_tac_toe.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\Tic_tac_toe.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/Tic_tac_toe.dir/clean
+CMakeFiles/Tic_Tac_Toe.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\Tic_Tac_Toe.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/Tic_Tac_Toe.dir/clean
 
-CMakeFiles/Tic_tac_toe.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dana\Desktop\kai cup\Tic tac toe" "C:\Users\Dana\Desktop\kai cup\Tic tac toe" "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug" "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug" "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles\Tic_tac_toe.dir\DependInfo.cmake" --color=$(COLOR)
-.PHONY : CMakeFiles/Tic_tac_toe.dir/depend
+CMakeFiles/Tic_Tac_Toe.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles\Tic_tac_toe.dir\DependInfo.cmake" --color=$(COLOR)
+.PHONY : CMakeFiles/Tic_Tac_Toe.dir/depend
 

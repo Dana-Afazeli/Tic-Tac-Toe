@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dana\Desktop\kai cup\Tic tac toe"
+CMAKE_SOURCE_DIR = "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dana\Desktop\kai cup\Tic tac toe\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\University\98 Semester 1\Fundamentals of Programming\KAI Cup\Tic Tac Toe\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tic_tac_toe
+# Target rules for targets named Tic_Tac_Toe
 
 # Build rule for target.
-Tic_tac_toe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Tic_tac_toe
-.PHONY : Tic_tac_toe
+Tic_Tac_Toe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Tic_Tac_Toe
+.PHONY : Tic_Tac_Toe
 
 # fast build rule for target.
-Tic_tac_toe/fast:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/build
-.PHONY : Tic_tac_toe/fast
+Tic_Tac_Toe/fast:
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/build
+.PHONY : Tic_Tac_Toe/fast
 
 Node.obj: Node.cpp.obj
 
@@ -128,7 +128,7 @@ Node.obj: Node.cpp.obj
 
 # target to build an object file
 Node.cpp.obj:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.obj
 .PHONY : Node.cpp.obj
 
 Node.i: Node.cpp.i
@@ -137,7 +137,7 @@ Node.i: Node.cpp.i
 
 # target to preprocess a source file
 Node.cpp.i:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Node.cpp.i
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.i
 .PHONY : Node.cpp.i
 
 Node.s: Node.cpp.s
@@ -146,7 +146,7 @@ Node.s: Node.cpp.s
 
 # target to generate assembly for a file
 Node.cpp.s:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Node.cpp.s
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
 State.obj: State.cpp.obj
@@ -155,7 +155,7 @@ State.obj: State.cpp.obj
 
 # target to build an object file
 State.cpp.obj:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/State.cpp.obj
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/State.cpp.obj
 .PHONY : State.cpp.obj
 
 State.i: State.cpp.i
@@ -164,7 +164,7 @@ State.i: State.cpp.i
 
 # target to preprocess a source file
 State.cpp.i:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/State.cpp.i
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/State.cpp.i
 .PHONY : State.cpp.i
 
 State.s: State.cpp.s
@@ -173,7 +173,7 @@ State.s: State.cpp.s
 
 # target to generate assembly for a file
 State.cpp.s:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/State.cpp.s
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/State.cpp.s
 .PHONY : State.cpp.s
 
 Tree.obj: Tree.cpp.obj
@@ -182,7 +182,7 @@ Tree.obj: Tree.cpp.obj
 
 # target to build an object file
 Tree.cpp.obj:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.obj
 .PHONY : Tree.cpp.obj
 
 Tree.i: Tree.cpp.i
@@ -191,7 +191,7 @@ Tree.i: Tree.cpp.i
 
 # target to preprocess a source file
 Tree.cpp.i:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Tree.cpp.i
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.i
 .PHONY : Tree.cpp.i
 
 Tree.s: Tree.cpp.s
@@ -200,7 +200,7 @@ Tree.s: Tree.cpp.s
 
 # target to generate assembly for a file
 Tree.cpp.s:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/Tree.cpp.s
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/Tree.cpp.s
 .PHONY : Tree.cpp.s
 
 main.obj: main.cpp.obj
@@ -209,7 +209,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -218,7 +218,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -227,7 +227,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Tic_tac_toe.dir\build.make CMakeFiles/Tic_tac_toe.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Tic_Tac_Toe.dir\build.make CMakeFiles/Tic_Tac_Toe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -236,7 +236,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Tic_tac_toe
+	@echo ... Tic_Tac_Toe
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Node.obj

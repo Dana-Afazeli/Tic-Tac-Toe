@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dana/Desktop/kai cup/Tic tac toe
+# Install script for directory: E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

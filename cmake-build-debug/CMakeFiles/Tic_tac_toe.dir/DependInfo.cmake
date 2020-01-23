@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.cpp" "C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj"
-  "C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.cpp" "C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/State.cpp.obj"
-  "C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.cpp" "C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj"
-  "C:/Users/Dana/Desktop/kai cup/Tic tac toe/main.cpp" "C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/main.cpp.obj"
+  "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.cpp" "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/Node.cpp.obj"
+  "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.cpp" "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/State.cpp.obj"
+  "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.cpp" "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj"
+  "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/main.cpp" "E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/CMakeFiles/Tic_tac_toe.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

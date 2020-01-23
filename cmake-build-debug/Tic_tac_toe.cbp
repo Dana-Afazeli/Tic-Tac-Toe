@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug"/>
+				<Option working_dir="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Tic_tac_toe">
-				<Option output="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Tic_tac_toe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug"/>
+			<Target title="Tic_Tac_Toe">
+				<Option output="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Tic_Tac_Toe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_tac_toe"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_Tac_Toe"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Tic_tac_toe/fast">
-				<Option output="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Tic_tac_toe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug"/>
+			<Target title="Tic_Tac_Toe/fast">
+				<Option output="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Tic_Tac_Toe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,55 +53,55 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_tac_toe/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tic_Tac_Toe/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug"/>
+				<Option working_dir="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug"/>
+				<Option working_dir="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Dana/Desktop/kai cup/Tic tac toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.cpp">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.cpp">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.h">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.h">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.cpp">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.cpp">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.h">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.h">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.cpp">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.cpp">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.h">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.h">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/main.cpp">
-			<Option target="Tic_tac_toe"/>
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/main.cpp">
+			<Option target="Tic_Tac_Toe"/>
 		</Unit>
-		<Unit filename="C:/Users/Dana/Desktop/kai cup/Tic tac toe/CMakeLists.txt">
+		<Unit filename="E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
