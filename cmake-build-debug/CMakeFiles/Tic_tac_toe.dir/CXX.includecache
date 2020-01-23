@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.cpp
+Node.h
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.h
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Node.h
+vector
+-
+math.h
+-
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.cpp
+State.h
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.h
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/State.h
+vector
+-
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.cpp
+Tree.h
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.h
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/Tree.h
+Node.h
+-
+
+C:/Users/Dana/Desktop/kai cup/Tic tac toe/main.cpp
+iostream
+-
+vector
+-
+
