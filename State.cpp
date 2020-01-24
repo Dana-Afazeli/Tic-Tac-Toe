@@ -1,23 +1,87 @@
 #include "State.h"
+#include <iostream>
+using namespace std;
+
+State::State()
+{
+	for(int i = 0; i < 9; i++)
+	{
+		for (int j = 0; j < 9; j++)
+		{
+			board[i][j] = 0;
+		}
+	}
+	for(int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			local[i][j] = 0;
+		}
+	}
+	lastX = -1;
+	lastY = -1;
+	player = 1;
+}
+
+State::State(const State &state)
+{
+	for(int i = 0; i < 9; i++)
+	{
+		for (int j = 0; j < 9; j++)
+		{
+			board[i][j] = state.board[i][j];
+		}
+	}
+	for(int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			local[i][j] = state.local[i][j];
+		}
+	}
+	lastX = state.lastX;
+	lastY = state.lastY;
+	player = state.player;
+}
 
 vector<State> State::getNext()
 {
 	vector<State> res;
-
-	if (local[lastX / 3][lastY / 3] == 0)
+	if(lastX != -1 && lastY != -1)
 	{
-		for (int i = (lastX / 3) * 3; i < (lastX / 3) * 3 + 3; i++)
+		if (!isFull(lastX % 3, lastY % 3))
 		{
-			for (int j = (lastX / 3) * 3; j < (lastX / 3) * 3 + 3; j++)
+			for (int i = (lastX % 3) * 3; i < (lastX % 3) * 3 + 3; i++)
 			{
-				if (board[i][j] == 0)
+				for (int j = (lastY % 3) * 3; j < (lastY % 3) * 3 + 3; j++)
 				{
-					State s = *this;
-					s.board[i][j] = player;
-					s.player *= -1;
-					s.lastX = i;
-					s.lastY = j;
-					res.push_back(s);
+					if (board[i][j] == 0)
+					{
+						State s = *this;
+						s.board[i][j] = player;
+						s.player *= -1;
+						s.lastX = i;
+						s.lastY = j;
+						res.push_back(s);
+					}
+				}
+			}
+		}
+		else
+		{
+			for (int i = 0; i < 9; i++)
+			{
+				for (int j = 0; j < 9; j++)
+				{
+					if (board[i][j] == 0)
+					{
+						State s = *this;
+						s.board[i][j] = player;
+						s.player *= -1;
+						s.lastX = i;
+						s.lastY = j;
+						res.push_back(s);
+					}
 				}
 			}
 		}
@@ -43,12 +107,28 @@ vector<State> State::getNext()
 	return res;
 }
 
+int State::isFull(int x, int y)
+{
+	if(local[x][y] != 0)
+		return 1;
+	for(int i = x * 3; i < x * 3 + 3; i++)
+	{
+		for(int j = y * 3; j < y * 3 + 3; j++)
+		{
+			if(board[i][j] == 0)
+				return 0;
+		}
+	}
+	local[x][y] = -2;
+	return 1;
+}
+
 int State::check()
 {
 	int flag = 0;
 	for (int i = (lastX / 3) * 3; i < (lastX / 3) * 3 + 3; i++)
 	{
-		int j = (lastX / 3) * 3;
+		int j = (lastY / 3) * 3;
 		if (board[i][j] != 0 && board[i][j] == board[i][j + 1] && board[i][j] == board[i][j + 2])
 		{
 			local[lastX / 3][lastY / 3] = board[i][j];
@@ -57,7 +137,7 @@ int State::check()
 	}
 	if(!flag)
 	{
-		for (int j = (lastX / 3) * 3; j < (lastX / 3) * 3 + 3; j++)
+		for (int j = (lastY / 3) * 3; j < (lastY / 3) * 3 + 3; j++)
 		{
 			int i = (lastX / 3) * 3;
 			if (board[i][j] != 0 && board[i][j] == board[i + 1][j] && board[i][j] == board[i + 2][j])
@@ -70,7 +150,7 @@ int State::check()
 	if(!flag)
 	{
 		int i = (lastX / 3) * 3;
-		int j = (lastX / 3) * 3;
+		int j = (lastY / 3) * 3;
 		if (board[i][j] != 0 && board[i][j] == board[i + 1][j + 1] && board[i][j] == board[i + 2][j + 2])
 		{
 			local[lastX / 3][lastY / 3] = board[i][j];
@@ -80,7 +160,7 @@ int State::check()
 	if(!flag)
 	{
 		int i = (lastX / 3) * 3 + 2;
-		int j = (lastX / 3) * 3;
+		int j = (lastY / 3) * 3;
 		if (board[i][j] != 0 && board[i][j] == board[i - 1][j + 1] && board[i][j] == board[i - 2][j + 2])
 		{
 			local[lastX / 3][lastY / 3] = board[i][j];
@@ -119,6 +199,18 @@ int State::check()
 			return local[i][j];
 		}
 	}
+
+	int count = 0;
+	for(int i = 0; i < 3; i++)
+	{
+		for(int j = 0; j < 3; j++)
+		{
+			if(isFull(i, j))
+				count++;
+		}
+	}
+	if(count == 9)
+		return -2;
 	return 0;
 }
 
@@ -169,7 +261,47 @@ double State::eval()
 	}
 }
 
+void State::print()
+{
+	for(int i = 0; i < 9; i++)
+	{
+		for(int j = 0; j < 9; j++)
+		{
+			if(board[i][j] == -1)
+				cout << board[i][j] << " ";
+			else
+				cout << " " << board[i][j] << " ";
+		}
+		cout << endl;
+	}
+}
+
 int State::getPlayer()
 {
 	return player;
+}
+
+int State::getLastX()
+{
+	return lastX;
+}
+
+int State::getLastY()
+{
+	return lastY;
+}
+
+void State::setPlayer(int player)
+{
+	this->player = player;
+}
+
+void State::setLastX(int lastX)
+{
+	this->lastX = lastX;
+}
+
+void State::setLastY(int)
+{
+	this->lastY = lastY;
 }

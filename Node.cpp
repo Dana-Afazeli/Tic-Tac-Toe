@@ -1,13 +1,20 @@
 #include "Node.h"
-#include <random>
-#include <ctime>
+#include <cstdlib>
 
 #define INF 1000 * 1000 * 1000;
 
+Node::Node()
+{
+	gameState = State();
+	score = 0;
+	played = 0;
+}
+
 double Node::UCB(int T) {
+	const static double expCo = sqrt(2);
 	if(played == 0)
 		return INF;
-    return score/played + expCo*sqrt(log(T)/played);
+    return score/played + expCo*sqrt(log((double)T)/played);
 }
 
 void Node::expand()
@@ -54,13 +61,16 @@ double Node::simulate(int T)
 	return s;
 }
 
-Node Node::getBest()
+Node& Node::getBest()
 {
 	int max = -INF;
 	int maxi = -1;
 
 	for(int i = 0; i < subNodes.size(); i++)
 	{
+		if(subNodes[i].gameState.check() == 1)
+			return subNodes[i];
+
 		if(subNodes[i].played > max)
 		{
 			maxi = i;
@@ -71,8 +81,26 @@ Node Node::getBest()
 	return subNodes[maxi];
 }
 
+State& Node::getGameState()
+{
+	return gameState;
+}
+
+Node& Node::find(int x, int y)
+{
+	Node n;
+	for(int i = 0; i < subNodes.size(); i++)
+	{
+		if(subNodes[i].gameState.getLastX() == x && subNodes[i].gameState.getLastY() == y)
+			return subNodes[i];
+	}
+	return n;
+}
+
 int Node::select(int T)
 {
+	static int call = 0;
+	call++;
 	double max = -INF;
 	int maxi = -1;
 	for(int i = 0; i < subNodes.size(); i++)
@@ -93,6 +121,13 @@ double Node::play()
 		return gameState.eval();
 
 	vector<State> states = gameState.getNext();
+	if(states.empty())
+	{
+		gameState.print();
+		gameState.check();
+		gameState.getNext();
+		return 0;
+	}
 	int i = random(states.size());
 	Node n;
 	n.gameState = states[i];
@@ -101,6 +136,5 @@ double Node::play()
 
 int Node::random(int n)
 {
-	srand(time(nullptr));
 	return rand() % n;
 }

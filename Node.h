@@ -8,14 +8,16 @@ using namespace std;
 
 class Node {
 public:
+	Node();
 	double simulate(int);
-	Node getBest();
+	Node &getBest();
+	State &getGameState();
+	Node &find(int, int);
 private:
 	vector<Node> subNodes;
 	State gameState;
 	double score;
 	int played;
-	const double expCo = sqrt(2);
 
 	double UCB(int);
 	int select(int);

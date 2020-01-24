@@ -5,7 +5,8 @@
 
 class Tree {
 public:
-
+	Node &getRoot();
+	void setRoot(Node);
 private:
     Node root;
 };

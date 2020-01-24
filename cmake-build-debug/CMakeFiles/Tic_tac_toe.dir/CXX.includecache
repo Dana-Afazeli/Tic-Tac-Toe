@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.cpp
-Node.h
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.h
-random
--
-ctime
--
-
 E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.h
 vector
 -
@@ -22,19 +14,25 @@ math.h
 State.h
 E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.h
 
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.cpp
-State.h
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.h
-
 E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.h
 vector
 -
 
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.cpp
-Tree.h
-E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.h
-
 E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.h
 Node.h
 E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.h
+
+E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Tree.h
+E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Tree.h
+Node.h
+E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/Node.h
+State.h
+E:/OneDrive/University/98 Semester 1/Fundamentals of Programming/KAI Cup/Tic Tac Toe/State.h
 

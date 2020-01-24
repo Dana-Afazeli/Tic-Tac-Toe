@@ -13,5 +13,8 @@ CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj: ../State.h
 CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj: ../Tree.cpp
 CMakeFiles/Tic_tac_toe.dir/Tree.cpp.obj: ../Tree.h
 
+CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: ../Node.h
+CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: ../State.h
+CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: ../Tree.h
 CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: ../main.cpp
 
